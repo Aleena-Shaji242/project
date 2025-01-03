@@ -8,6 +8,10 @@ class practice_practice extends StatelessWidget {
     return const Scaffold(
       body: Text(
         "hello world",
+        style: TextStyle(
+          fontSize: 30,
+          fontWeight: FontWeight.bold,
+        ),
       ),
     );
   }
